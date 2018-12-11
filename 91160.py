@@ -16,7 +16,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)-15s - %(levelname)s - %(message)s'
 )
-r = redis.Redis(host='redis', port=6379, db=1)
+r = redis.Redis(host='redis', port=6379, db=2)
 
 
 def wait_child(signum, frame):
