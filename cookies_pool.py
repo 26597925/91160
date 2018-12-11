@@ -6,7 +6,7 @@ import datetime
 import redis
 
 #r = redis.Redis('localhost', 6379,db=2)
-r = redis.Redis(host='redis', port=6379, db=2, password='hayabusa13401300cc')
+r = redis.Redis(host='redis', port=6379, db=2)
 
 
 headers = {'Host': 'weixin.91160.com',
