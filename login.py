@@ -14,7 +14,7 @@ class guahao(object):
     def __init__(self, user, passwd, _id):
         self.user = user
         self.passwd = passwd
-        self.r = redis.Redis(host='redis', port=6379, db=2, password='hayabusa13401300cc')
+        self.r = redis.Redis(host='redis', port=6379, db=2)
         self._id = _id
         self.s = requests.session()
         self.headers = {'Host': 'weixin.91160.com',
